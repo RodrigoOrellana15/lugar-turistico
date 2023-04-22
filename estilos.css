@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #364552;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+    font-size: 2rem;
+    background-color: gray;
+    color: white;
+    padding: 2rem;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+.seccion-uno{
+    display: flex;
+
+}
+.seccion-dos{
+    display: flex;
+
+}
+
+
+section article{
+    transition: box-shadow 0.3s ease;
+    margin: 1rem  auto;
+    background-color: gray;
+    color: white;
+    border-radius: 0.5rem;
+    width: 400px;
+    padding: 0.25rem 0;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(246, 243, 243, 0.81)
+}
+
+
+
+
+h2, p{
+    margin: 1rem;
+    text-align: justify;
+}
+
+
+
